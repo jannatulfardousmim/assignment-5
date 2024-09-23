@@ -4,8 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--dasiy Ui cnd start-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+    <!--dasiy Ui cnd end-->
+    <!--font family cnd-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+<!--font style-->
+<style>
+    .lexend-font {
+    font-family: "Lexend", sans-serif;
+}
+</style>
+  
 </head>
-<body>
+<body class="lexend-font">
+    <!--header start-->
+    <header class="container mx-auto">
+
+        <!--nav bar start-->
+        <nav class="  sticky top-0  mb-5">
+          <div class="">
+            <div class="lg:flex justify-between  items-center lg:px-16 pt-5 pb-10 text-center bg-[#F9F7F3]">
+                <!--nav left-->
+                <button onclick="document.location='blog.html'" class="btn rounded-xl px-5 bg-[#B4F461] font-bold  w-25 text-center text-xl">Blog</button>
+                <!--nav-middle-->
+                <div class="flex items-center gap-3 text-xl font-bold pl-7 py-4">
+                    <img src="assets/logo.png " class="h-7 w-7">
+                    <p>Donate Bangladesh</p>
+                </div>
+                <!--nav right-->
+                <div class="flex items-center gap-3 text-xl font-semibold pl-7 py-4">
+                   <img src="assets/coin.png">
+                   <p><span>5500</span> <span>BDT</span></p>
+                </div>
+               </div>
+          </div>
+          <!-- 2 button add start-->
+           <div class="">
+            <button class="btn btn-lg">Donation</button>
+            <button class="btn btn-lg">History</button>
+           </div>
+          <!-- 2 button add end-->
+        </nav>
+         <!--nav bar end-->
+
+                  
+    </header>
     
+    <!--header end-->
+ 
 </body>
 </html>

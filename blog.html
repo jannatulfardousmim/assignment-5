@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog page</title>
+        <!--dasiy Ui cnd start-->
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+            <!--dasiy Ui cnd end-->
+            <!--font family cnd-->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+        <!--font style-->
+        <style>
+            .lexend-font {
+            font-family: "Lexend", sans-serif;
+        }
+        </style>
+</head>
+<body class="lexend-font">
+    <!--qustion section start-->
+    <div class=" container mx-auto">
+        <div class="collapse collapse-arrow bg-base-200 mb-2 p-3">
+            <input type="radio" name="my-accordion-2" checked="checked" />
+            <div class="collapse-title text-xl font-medium">What is the Document Object Model (DOM)?</div>
+            <div class="collapse-content">
+              <p>The DOM represents a document with a logical tree. Each branch of the tree ends in a node, and each node contains objects. DOM methods allow programmatic access to the tree. With them, you can change the document's structure, style, or content.</p>
+            </div>
+          </div>
+        <div class="collapse collapse-arrow bg-base-200 mb-2 p-3">
+            <input type="radio" name="my-accordion-2" checked="checked" />
+            <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
+            <div class="collapse-content">
+              <p>Selecting DOM (Document Object Model) elements is a fundamental aspect of web development with JavaScript. It allows developers to interact with and manipulate elements on a webpage dynamically. Proper selection of elements is crucial for tasks such as updating content, adding event listeners, or modifying styles.<br><br>
+
+                Below are the approaches to select DOM elements in JavaScript 
+                Table of Content<br><br>
+                
+                1.Using getElementById<br>
+                2.Using getElementsByClassName<br>
+                3.Using getElementsByTagName<br>
+                4.Using querySelector<br>
+                5.Using querySelectorAll</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200 mb-2 p-3">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM, and why is it useful?</div>
+            <div class="collapse-content">
+              <p>Event delegation is a design pattern in JavaScript used to efficiently manage and handle events on multiple child elements by attaching a single event listener to a common ancestor element.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200 mb-2 p-3">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and styles using the DOM?</div>
+            <div class="collapse-content">
+              <p>The classList object only provide methods to change the class of an element. If you want to change other attributes like id, href, or src, you can use the setAttribute() method.<br><br>
+
+                The setAttribute() method accepts two arguments:<br><br>
+                
+               1. The name of the attribute to set<br>
+               2. The value of the attribute to set</p>
+            </div>
+          </div>
+          <div class=" mt-10 flex justify-center mb-16">
+            <button onclick="document.location='index.html'" class="btn rounded-xl px-5 bg-[#B4F461] font-bold  w-1/3 text-center text-xl">Home</button>
+          </div>
+    </div>
+</body>
+</html>
