@@ -13,8 +13,14 @@ function valueInputId(id) {
     
 }
 
-
-
+function showBtn(id, btn) {
+    document.getElementById('donation-form').classList.add('hidden');
+    document.getElementById('donation-click-btn').classList.remove('active');
+    document.getElementById('history-form').classList.add('hidden');
+    document.getElementById('history-click-btn').classList.remove('active');
+    document.getElementById(id).classList.remove('hidden');
+    document.getElementById(btn).classList.add('active');
+}
 
 
 

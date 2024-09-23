@@ -17,6 +17,15 @@
     .lexend-font {
     font-family: "Lexend", sans-serif;
 }
+.hidden {
+            display: none; 
+        }
+       
+        .active {
+            background-color: rgb(180, 244, 97); 
+            transition:0s;
+            
+        }
 </style>
   
 </head>
@@ -46,16 +55,16 @@
            <div class="flex justify-center  pt-12 pb-8">
           <div class="">
             <!--donation btn-->
-            <button class="btn btn-lg mr-4">Donation</button>
+            <button   id="donation-click-btn" class="btn btn-lg mr-4">Donation</button>
             <!--history btn-->
-            <button class="btn btn-lg">History</button>
+            <button id="history-click-btn" class="btn btn-lg">History</button>
           </div>
            </div>
           <!-- 2 button add end-->
         </nav>
          <!--nav bar end-->
          <!--donation btn form start-->
-         <div class="container mx-auto">
+         <div id="donation-form" class="container mx-auto">
             <!--1st container start..............................................................-->
             <div class="border mb-11">
                 <div class="hero   ">
@@ -199,6 +208,12 @@
             <!--3rd container end-->
          </div>
          <!--donation btn form end-->
+         <!--history btn form start........................................-->
+         <div id="history-form">
+          <h1>hello</h1>
+         </div>
+         <!--history btn form end-->
+        
 
 
                   
@@ -207,6 +222,7 @@
     <!--header end-->
 
     <!--java add-->
+    
     <script src="java/utilities.js"></script>
     <script src="java/common.js"></script>
     <script src="java/java.js"></script>
