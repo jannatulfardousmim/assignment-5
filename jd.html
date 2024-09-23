@@ -1,0 +1,25 @@
+<button  id="donate-btn"  class="btn  w-full text-2xl font-bold bg-[#B4F461]" onclick="my_modal_1.showModal()">Donate Now</button>
+<dialog id="my_modal_1 " class="modal">
+  <div class="modal-box">
+    <h1 class="text-3xl font-bold   p-5 flex justify-center">Congrates!</h1>
+    <div ><img src="assets/coin.png" class=" mx-auto h-10 w-10"></div>
+    <p class="text-xl   p-5 flex justify-center">You Have Donated for HumanKind</p>
+    <h3 class="text-2xl font-bold   p-5 flex justify-center">Successfully</h3>
+    <div class="modal-action">
+      <form method="dialog">
+        <button class="btn flex justify-center border-red-600 ">Close confirmation</button>
+      </form>
+    </div>
+  </div>
+</dialog>
+
+
+<dialog id="my_modal_1" class="modal">
+    <div class="modal-box">
+      <h1 class="text-3xl font-bold">Congratulations!</h1>
+      <p>You Have Donated Successfully!</p>
+      <div class="modal-action">
+        <button class="btn" onclick="document.getElementById('my_modal_1').close()">Close</button>
+      </div>
+    </div>
+  </dialog>
