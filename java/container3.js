@@ -1,6 +1,6 @@
 document.getElementById('donate-btn3').addEventListener('click', function(event) {
  
-    const money = getInputId('input-id2');
+    const money = getInputId('input-id3');
     const amount = valueInputId('amount-total');
     if (!isNaN(money) && money > 0 && money<=amount) {
         const addMoneySection = valueInputId('add-money3');
@@ -20,7 +20,7 @@ div.classList.add('mb-5')
 
 div.innerHTML=`   
 <h4  class="text-3xl font-bold"> ${money} Taka is Aid for Injured in the Quota Movement</h4>
-<P >${date}</P>`
+<P >Date : ${date}</P>`
   
 
 document.getElementById('history-form').appendChild(div);

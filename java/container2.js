@@ -20,7 +20,7 @@ document.getElementById('donate-btn2').addEventListener('click', function(event)
     
     div.innerHTML=`   
     <h4  class="text-3xl font-bold"> ${money} Taka is Donate for Flood Relief in Feni,Bangladesh</h4>
-    <P >${date}</P>`
+    <P >Date: ${date}</P>`
       
     
     document.getElementById('history-form').appendChild(div);
