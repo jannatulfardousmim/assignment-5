@@ -16,7 +16,7 @@ else{
 
 
 
-function updateAmount(inputId, valueId, amountId, model) {
+/*function updateAmount(inputId, valueId, amountId, model) {
     const money = getInputId(inputId);
 
     if (!isNaN(money) && money > 0) {
@@ -27,9 +27,11 @@ function updateAmount(inputId, valueId, amountId, model) {
         const totalAmount = amount - money;
         document.getElementById(amountId).innerText = totalAmount;
         document.getElementById(model).showModal();
+
+       
     } else {     
         alert("Invalid input. Please try again.");
         return;
     }
-}
+}*/
 
